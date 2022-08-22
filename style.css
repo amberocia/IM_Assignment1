@@ -140,6 +140,14 @@ b {
 }
 
 @media screen and (max-width: 1200px) {
+  .container {
+    width: 94%;
+    grid-template: 7rem auto 23rem;
+  }
+
+  aside .logo h2 {
+    display: none;
+  }
 }
 
 /*=====Sidebar=====*/
@@ -153,6 +161,7 @@ aside {
 
 aside .top {
   padding-bottom: 0.3rem;
+  padding-top: 0.6rem;
   background: rgb(232, 229, 229);
   display: flex;
   align-items: center;
@@ -168,7 +177,7 @@ aside .logo {
 
 aside .logo img {
   width: 2rem;
-  height: 2rem;
+  height: 1.5rem;
 }
 
 aside .close {
@@ -250,12 +259,11 @@ main .date input[type="date"] {
 
 /*=====Right=====*/
 .right {
-  margin-top: 1.4rem;
+  margin-top: 0.4rem;
 }
 
 .right .top {
   display: flex;
-  justify-content: end;
   gap: 2 rem;
 }
 
