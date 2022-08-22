@@ -8,17 +8,22 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Website for Interactive Media</title>
   </head>
   <body>
+    <button id="back-to-top-btn"><i class="fa-solid fa-angles-up"></i></button>
     <div class="container">
       <!--Sidebar-->
       <aside>
         <div class="top">
           <div class="top">
             <img src="" alt="logo" />
-            <h2>Web<span class="lgcolour">site</span></h2>
+            <h2>Web<span class="lgcolor">site</span></h2>
           </div>
           <div class="close" id="close_btn">
             <span class="material-icons-sharp"> close </span>
@@ -26,7 +31,7 @@
         </div>
 
         <div class="sidebar">
-          <a href="#">
+          <a href="index.html">
             <span class="material-icons-sharp"> home </span>
             <h3>Home</h3>
           </a>
@@ -49,7 +54,62 @@
         </div>
       </aside>
 
-      
+      <!--Main-->
+      <main>
+        <h1>Home</h1>
+        <div class="date">
+          <input type="date" />
+        </div>
+      </main>
     </div>
+
+    <!--footer-->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <a href=""><h2>Blogs</h2></a>
+            <a href="">Overview of Data Visualisation</a>
+            <a href="">Analysing my UI and UX </a>
+          </div>
+        </div>
+
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <a href="index.html"><h2>Home</h2></a>
+            <a href=""><h2>Design</h2></a>
+            <a href=""><h2>Design-Art</h2></a>
+            <a href=""><h2>Design-Visualisations</h2></a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">BOBBI AJ</a>
+          </div>
+
+          <div class="social__icons">
+            <a href="/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
   </body>
 </html>
