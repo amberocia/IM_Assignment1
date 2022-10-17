@@ -1,3 +1,12 @@
+html {
+  background: url(Images/milad-fakurian-58Z17lnVS4U-unsplash.jpg) no-repeat
+    center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 /*Back to Top Button*/
 #back-to-top-btn {
   display: none;
@@ -78,7 +87,7 @@ body {
   height: 100vh;
   font-family: poppins, sans-serif;
   font-size: 0.88rem;
-  background-color: #fff;
+
   user-select: none;
   overflow-x: hidden;
   color: #363949;
@@ -90,11 +99,11 @@ body {
   margin: 0 auto;
 
   gap: 1.8rem;
-  grid-template-columns: 15rem auto;
+  grid-template-columns: 25rem auto;
 }
 
 a {
-  color: #363949;
+  color: #ff0303ea;
 }
 
 img {
@@ -151,7 +160,7 @@ aside {
 aside .top {
   padding-bottom: 0.3rem;
   padding-top: 0.6rem;
-  background: rgb(232, 229, 229);
+  background: rgba(232, 229, 229, 0.356);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -174,12 +183,12 @@ aside .close {
 }
 
 aside .sidebar {
-  background: rgb(232, 229, 229);
   display: flex;
   flex-direction: column;
   height: 86vh;
   position: relative;
   top: 1rem;
+  padding: 1rem;
 }
 
 aside h3 {
@@ -188,7 +197,7 @@ aside h3 {
 
 aside .sidebar a {
   display: flex;
-  color: #677483;
+  color: #044186;
   margin-left: 2rem;
   gap: 1rem;
   align-items: center;
@@ -304,14 +313,17 @@ main .date input[type="date"] {
 /*=====sidebar_top=====*/
 .sidebar_top {
   margin-top: 0.4rem;
+  align-items: center;
 }
 
 .sidebar_top .top {
   display: flex;
   gap: 2 rem;
+  align-items: center;
 }
 
 .sidebar_top .top button {
+  align-items: center;
   display: none;
 }
 
@@ -384,7 +396,7 @@ main .date input[type="date"] {
 /*=====Footer=====*/
 .footer__container {
   margin-top: 3rem;
-  background-color: #969595;
+  background-color: #65887a90;
   padding: 5rem 0;
   display: flex;
   flex-direction: column;
