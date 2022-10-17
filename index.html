@@ -12,7 +12,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="indexstyle.css" />
+    <link rel="stylesheet" href="universal.css" />
     <title>Website for Interactive Media</title>
   </head>
   <body>
@@ -78,6 +79,30 @@
           <!--About1 Section-->
         </main>
       </div>
+    </div>
+
+    <!--Contact-->
+    <div class="contactcontainer">
+      <form onsubmit="sendEmail(); reset(); return false;">
+        <h3>CONTACT</h3>
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input
+          type="Email"
+          name=""
+          id="email"
+          placeholder="Email adress"
+          required
+        />
+        <input type="text" id="phone" placeholder="Phone no." required />
+        <textarea
+          name=""
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Write a message"
+        ></textarea>
+        <button type="submit">Send</button>
+      </form>
     </div>
 
     <!--footer-->
