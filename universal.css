@@ -1,5 +1,63 @@
-/*contact*/
+/*Back to Top Button*/
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  color: #c09daf;
+  cursor: pointer;
+  outline: none;
+  border: 3px solid #c09daf;
+  border-radius: 50%;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-property: background-color, color;
+}
 
+#back-to-top-btn:hover,
+#back-to-top-btn:focus {
+  background-color: #c09daf;
+  color: #fff;
+}
+
+.btnEntrance {
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-name: btnEntrance;
+}
+
+@keyframes btnEntrance {
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.btnExit {
+  animation-duration: 0.25s;
+  animation-fill-mode: both;
+  animation-name: btnExit;
+}
+
+@keyframes btnExit {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+}
+/*End of back-to-top-button*/
+
+/*contact*/
 * {
   margin: 0;
   padding: 0;
@@ -115,8 +173,13 @@ form button:hover:after {
 }
 
 /*=====Footer=====*/
+
+h6 {
+  font-size: 1.6rem;
+}
+
 .footer__container {
-  margin-top: 1rem;
+  margin-top: 0rem;
   background-color: #8f7cb467;
   padding: 5rem 0;
   display: flex;
@@ -171,7 +234,7 @@ form button:hover:after {
   transition: 0.3 ease-out;
 }
 
-.footer__link--items a h2:hover {
+.footer__link--items a h6:hover {
   color: #c09daf;
   transition: 0.3 ease-out;
 }
@@ -234,5 +297,9 @@ form button:hover:after {
     margin: 0;
     padding: 10px;
     width: 100%;
+  }
+
+  h6 {
+    font-size: 1.3rem;
   }
 }
