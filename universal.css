@@ -155,7 +155,7 @@ form button:hover:after {
   box-sizing: border-box;
 }
 
-.footer__link--items h2 {
+.footer__link--items h6 {
   margin-bottom: 16px;
   color: #fff;
 }
