@@ -17,10 +17,10 @@ html {
   width: 50px;
   height: 50px;
   background-color: #fff;
-  color: #983574;
+  color: #c09daf;
   cursor: pointer;
   outline: none;
-  border: 3px solid #983574;
+  border: 3px solid #c09daf;
   border-radius: 50%;
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
@@ -29,7 +29,7 @@ html {
 
 #back-to-top-btn:hover,
 #back-to-top-btn:focus {
-  background-color: #983574;
+  background-color: #c09daf;
   color: #fff;
 }
 
@@ -103,7 +103,7 @@ body {
 }
 
 a {
-  color: #ff0303ea;
+  color: #fff;
 }
 
 img {
@@ -117,11 +117,11 @@ h1 {
 }
 
 h2 {
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 
 h3 {
-  font-size: 0.87rem;
+  font-size: 1.3rem;
 }
 
 h4 {
@@ -150,7 +150,7 @@ b {
 
 /*=====Sidebar=====*/
 .lgcolor {
-  color: #983574;
+  color: #c09daf;
 }
 
 aside {
@@ -160,7 +160,7 @@ aside {
 aside .top {
   padding-bottom: 0.3rem;
   padding-top: 0.6rem;
-  background: rgba(232, 229, 229, 0.356);
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -197,7 +197,7 @@ aside h3 {
 
 aside .sidebar a {
   display: flex;
-  color: #044186;
+  color: #fff;
   margin-left: 2rem;
   gap: 1rem;
   align-items: center;
@@ -213,7 +213,7 @@ aside .sidebar a span {
 
 aside .sidebar a.active {
   background: rgb(132, 139, 200, 0.18);
-  color: #983574;
+  color: #c09daf;
   margin-left: 0;
 }
 
@@ -221,16 +221,16 @@ aside .sidebar a.active:before {
   content: "";
   width: 6px;
   height: 100%;
-  background: #983574;
+  background: #c09daf;
 }
 
 aside .sidebar a.active span {
-  color: #983574;
+  color: #c09daf;
   margin-left: calc(1rem-3px);
 }
 
 aside .sidebar a:hover {
-  color: #983574;
+  color: #c09daf;
 }
 
 aside .sidebar a:hover span {
@@ -348,7 +348,7 @@ main .date input[type="date"] {
 }
 
 .sidebar_top .theme span.active {
-  background: #983574;
+  background: #c09daf;
   color: white;
   border-radius: 0.4rem;
 }
@@ -396,7 +396,7 @@ main .date input[type="date"] {
 /*=====Footer=====*/
 .footer__container {
   margin-top: 3rem;
-  background-color: #65887a90;
+  background-color: #8f7cb467;
   padding: 5rem 0;
   display: flex;
   flex-direction: column;
@@ -451,7 +451,7 @@ main .date input[type="date"] {
 }
 
 .footer__link--items a h2:hover {
-  color: #983574;
+  color: #c09daf;
   transition: 0.3 ease-out;
 }
 
