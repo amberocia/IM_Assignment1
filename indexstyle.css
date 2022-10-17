@@ -66,7 +66,6 @@ html {
 }
 /*End of back-to-top-button*/
 
-
 @import url("https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200&display=swap");
 
 * {
@@ -214,7 +213,7 @@ aside .sidebar a span {
 }
 
 aside .sidebar a.active {
-  background: rgb(132, 139, 200, 0.18);
+  background: rgba(255, 255, 255, 0.089);
   color: #c09daf;
   margin-left: 0;
 }
@@ -258,7 +257,18 @@ aside .sidebar a:hover span {
   aside {
     position: fixed;
     left: 0;
-    background: white;
+    background: #90719d; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #0b8793,
+      #c09daf
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to left,
+      #59868b,
+      #90719d
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     width: 16rem;
     z-index: 3;
     box-shadow: 1rem 3rem 4rem rgb(132, 139, 200, 0.18);
@@ -394,4 +404,3 @@ main .date input[type="date"] {
     font-size: 2rem;
   }
 }
-
